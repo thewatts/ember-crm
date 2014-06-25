@@ -19,3 +19,6 @@ gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
 
+group :production do
+  gem "rails_12factor"
+end
